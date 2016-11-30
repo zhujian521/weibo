@@ -15,6 +15,7 @@
 		8D0D0DE61DEECAF000D195EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0D0DE41DEECAF000D195EF /* LaunchScreen.storyboard */; };
 		8D0D0DF11DEECAF000D195EF /* weiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D0DF01DEECAF000D195EF /* weiboTests.m */; };
 		8D0D0DFC1DEECAF000D195EF /* weiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D0DFB1DEECAF000D195EF /* weiboUITests.m */; };
+		8D0D0E0B1DEECC4C00D195EF /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D0E0A1DEECC4C00D195EF /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8D0D0DF71DEECAF000D195EF /* weiboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weiboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0D0DFB1DEECAF000D195EF /* weiboUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = weiboUITests.m; sourceTree = "<group>"; };
 		8D0D0DFD1DEECAF000D195EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0D0E091DEECC4C00D195EF /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		8D0D0E0A1DEECC4C00D195EF /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8D0D0DDA1DEECAF000D195EF /* AppDelegate.m */,
 				8D0D0DDC1DEECAF000D195EF /* ViewController.h */,
 				8D0D0DDD1DEECAF000D195EF /* ViewController.m */,
+				8D0D0E091DEECC4C00D195EF /* CustomView.h */,
+				8D0D0E0A1DEECC4C00D195EF /* CustomView.m */,
 				8D0D0DDF1DEECAF000D195EF /* Main.storyboard */,
 				8D0D0DE21DEECAF000D195EF /* Assets.xcassets */,
 				8D0D0DE41DEECAF000D195EF /* LaunchScreen.storyboard */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D0D0DDE1DEECAF000D195EF /* ViewController.m in Sources */,
+				8D0D0E0B1DEECC4C00D195EF /* CustomView.m in Sources */,
 				8D0D0DDB1DEECAF000D195EF /* AppDelegate.m in Sources */,
 				8D0D0DD81DEECAF000D195EF /* main.m in Sources */,
 			);
