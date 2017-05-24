@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //增加注释
     UIButton *btn = [[UIButton alloc]init];
     btn.backgroundColor = [UIColor redColor];
     btn.frame = CGRectMake(100, 100, 30, 30);
